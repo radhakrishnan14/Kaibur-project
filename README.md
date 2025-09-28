@@ -105,10 +105,12 @@ Developed a Java REST API for managing and running "task" objects, representing 
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3863c517-ace2-451c-995c-cc9d96bf8cc4" />
 
-<img width="1919" height="1197" alt="image" src="https://github.com/user-attachments/assets/005db30b-c061-4d67-855d-f85bc6d206c5" />
+
+
 
 ### MongoDB Data View
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b17a77a6-f75c-4cb6-b90e-7d9fea68181e" />
+<img width="1762" height="1006" alt="image" src="https://github.com/user-attachments/assets/5017c159-3d96-4fb3-8255-c46700fdaaa8" />
+
 
 
 ---

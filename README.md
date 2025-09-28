@@ -1,4 +1,4 @@
-
+Copy, paste, and fill in your screenshot file names. This template is ready for direct use in your repository.```markdown
 # Task 1: Java Backend and REST API Example
 
 **This is the first task in my submission.**
@@ -35,26 +35,43 @@ Developed a Java REST API for managing and running "task" objects, representing 
 - `output` (String): Command output  
 
 *Example JSON:*
-
-{
-  "id": "123",
-  "name": "Print Hello",
-  "owner": "John Smith",
-  "command": "echo Hello World again!",
-  "taskExecutions": [
+[
     {
-      "startTime": "2023-04-21 15:51:42.276Z",
-      "endTime": "2023-04-21 15:51:43.276Z",
-      "output": "Hello World!"
+        "id": "68d92c87b7b6ec9b8c2e4f11",
+        "name": "Thaya",
+        "owner": "ajay",
+        "command": "cmd /c echo Kavin",
+        "taskExecutions": [
+            {
+                "startTime": "2025-09-28T13:25:38.026Z",
+                "endTime": "2025-09-28T13:25:38.026Z",
+                "output": "Task created"
+            },
+            {
+                "startTime": "2025-09-28T13:25:52.733Z",
+                "endTime": "2025-09-28T13:25:52.792Z",
+                "output": "Kavin\n"
+            }
+        ]
     },
     {
-      "startTime": "2023-04-21 15:52:42.276Z",
-      "endTime": "2023-04-21 15:52:43.276Z",
-      "output": "Hello World again!"
+        "id": "68d95031ffc73ab8609300bf",
+        "name": "Kavin",
+        "owner": "ajay",
+        "command": "cmd /c echo Kavin",
+        "taskExecutions": [
+            {
+                "startTime": "2025-09-28T15:11:45.687Z",
+                "endTime": "2025-09-28T15:11:45.734Z",
+                "output": "Kavin\n"
+            }
+        ]
     }
-  ]
-}
+]
 
+
+
+---
 
 ## API Endpoints
 
@@ -92,32 +109,23 @@ Developed a Java REST API for managing and running "task" objects, representing 
 **All screenshots include the current date/time and my name. Replace these paths with your actual screenshot files.**
 
 ### Terminal - App Running
-<img width="1917" height="1019" alt="image" src="https://github.com/user-attachments/assets/094864d2-10ea-4605-9a93-926eb7ba5b4e" />
-
+<img width="1919" height="1189" alt="image" src="https://github.com/user-attachments/assets/1007ed02-be60-4693-a203-032be440b00b" />
 
 
 ### Task Creation (Postman)
 
-<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4a2cde9e-38fd-4dfd-8ceb-830d5ddbfb9f" />
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/3305d7ba-9663-41ab-aba0-4f91a45655aa" />
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/3a452429-4fb4-40f8-85c0-05ef866d8ad8" />
-<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/4627749b-635b-4cd8-9e96-4df11e2d92a2" />
-<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/99b1e07d-89ef-46b8-b591-104ed56ba272" />
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/15b5548e-1fcf-4723-8376-7bf9176201f0" />
+<img width="1920" height="1200" alt="Screenshot 2025-09-28 215323" src="https://github.com/user-attachments/assets/415824c0-efa8-408d-a398-dcb76d41f72d" />
 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ab96d84a-db71-41fd-8c1f-39dbbb36f4ec" />
 
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/481b7dd8-af93-4625-b1db-981788fc4169" />
 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3863c517-ace2-451c-995c-cc9d96bf8cc4" />
 
+<img width="1919" height="1197" alt="image" src="https://github.com/user-attachments/assets/005db30b-c061-4d67-855d-f85bc6d206c5" />
 
-
-
-
-
-
-### MongoDB Database View
-<img width="1768" height="1007" alt="image" src="https://github.com/user-attachments/assets/b6514230-979a-4dd8-a887-de0d7c4a724d" />
-
-
+### MongoDB Data View
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b17a77a6-f75c-4cb6-b90e-7d9fea68181e" />
 
 
 ---

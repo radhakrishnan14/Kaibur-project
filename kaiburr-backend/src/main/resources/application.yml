@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/kaiburrdb
+
+app:
+  exec:
+    allowedCommands:
+      - echo
+      - date
+      - uptime
+      - cmd
+    allowedScriptDir: /opt/kaiburr-scripts
+    timeoutSeconds: 30
+    maxOutputChars: 20000

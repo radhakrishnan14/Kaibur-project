@@ -1,4 +1,3 @@
----
 
 # Task 3: WEB UI Forms
 
@@ -47,7 +46,7 @@ Created a modern WEB UI frontend for the backend application implemented in Task
 <img width="1916" height="970" alt="image" src="https://github.com/user-attachments/assets/5eff71e2-bb47-450e-9e38-2a9108ffd258" />
 
 ### Task Creation Form  
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/f9c662ba-7aad-4bf6-b0a3-61fa539c30d9" />
+<img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/b82c6b49-6a2f-4bd7-a871-69cfe94fbd73" />
 
 ### Execution Output Modal  
 <img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/cd838b6c-8015-4c86-bc0b-feab04550a75" />

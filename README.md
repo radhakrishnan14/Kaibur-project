@@ -1,4 +1,4 @@
-Copy, paste, and fill in your screenshot file names. This template is ready for direct use in your repository.```markdown
+
 # Task 1: Java Backend and REST API Example
 
 **This is the first task in my submission.**

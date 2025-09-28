@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Task 3: WEB UI Forms
 
-Currently, two official plugins are available:
+**This is the second task in my assignment submission.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Task Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Created a modern WEB UI frontend for the backend application implemented in Task 1. The frontend is developed using React 19, TypeScript, and Ant Design. The user interface enables the creation, display, searching, deletion, and execution of task records. It also allows users to view command outputs directly through the UI.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Intuitive forms for creating new tasks
+- Search functionality for filtering tasks by name or other criteria
+- List view to display all tasks with details (id, name, owner, command, executions)
+- Ability to delete tasks with confirmation prompts
+- Run commands and view task execution output within the application
+- Real-time status notifications for user actions (success/errors)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React 19 framework
+- TypeScript for type safety and maintainability
+- Ant Design (AntD) as the UI component library
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## How to Run
+
+1. Clone this repository and navigate to the frontend folder.
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Make sure the backend (Task 1) API is running and accessible.
+5. Access the UI via [http://localhost:5137](http://localhost:5137)
+
+---
+
+## Screenshots
+
+### Main Dashboard – Task List  
+<img width="1916" height="970" alt="image" src="https://github.com/user-attachments/assets/5eff71e2-bb47-450e-9e38-2a9108ffd258" />
+
+### Task Creation Form  
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/f9c662ba-7aad-4bf6-b0a3-61fa539c30d9" />
+
+### Execution Output Modal  
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/cd838b6c-8015-4c86-bc0b-feab04550a75" />
+
+### Search Feature
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/0672dd3d-69fe-46a5-93b9-111a9e4ce0f7" />
+
+### MongoDB DataBase Output
+<img width="1765" height="1009" alt="image" src="https://github.com/user-attachments/assets/7a210a7c-2a7c-4546-8a5d-a73ab1798bcc" />
+
+
+---
+

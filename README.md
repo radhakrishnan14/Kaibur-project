@@ -8,7 +8,7 @@ This repository contains the complete project implementation divided into backen
 
 ### TASK1 Java backend and REST API example (`kaiburr-backend/`)
 
-The backend is built using Java Spring Boot and exposes REST APIs for managing and executing "task" objects stored in MongoDB. Key features include task CRUD operations, command execution, and execution history tracking.
+The backend [kaiburr-backend](kaiburr-backend) is built using Java Spring Boot and exposes REST APIs for managing and executing "task" objects stored in MongoDB. Key features include task CRUD operations, command execution, and execution history tracking.
 
 For full details, setup instructions, and API documentation, please refer to the backend README:  
 [kaiburr-backend/README.md](kaiburr-backend/README.md)
@@ -17,7 +17,7 @@ For full details, setup instructions, and API documentation, please refer to the
 
 ### TASK3 WEB UI Forms(`kaiburr-frontend/`)
 
-The frontend is implemented with React 19, TypeScript, and Ant Design. It provides a user-friendly interface to create, search, delete, and execute tasks while displaying task execution outputs. Accessibility and usability have been prioritized for an optimal user experience.
+The frontend [kaiburr-frontend](kaiburr-frontend) is implemented with React 19, TypeScript, and Ant Design. It provides a user-friendly interface to create, search, delete, and execute tasks while displaying task execution outputs. Accessibility and usability have been prioritized for an optimal user experience.
 
 For comprehensive frontend usage and development information, see:  
 [kaiburr-frontend/README.md](kaiburr-frontend/README.md)

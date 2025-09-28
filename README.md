@@ -1,4 +1,3 @@
-Copy, paste, and fill in your screenshot file names. This template is ready for direct use in your repository.```markdown
 # Task 1: Java Backend and REST API Example
 
 **This is the first task in my submission.**
@@ -35,39 +34,25 @@ Developed a Java REST API for managing and running "task" objects, representing 
 - `output` (String): Command output  
 
 *Example JSON:*
-[
+{
+  "id": "123",
+  "name": "Print Hello",
+  "owner": "John Smith",
+  "command": "echo Hello World again!",
+  "taskExecutions": [
     {
-        "id": "68d92c87b7b6ec9b8c2e4f11",
-        "name": "Thaya",
-        "owner": "ajay",
-        "command": "cmd /c echo Kavin",
-        "taskExecutions": [
-            {
-                "startTime": "2025-09-28T13:25:38.026Z",
-                "endTime": "2025-09-28T13:25:38.026Z",
-                "output": "Task created"
-            },
-            {
-                "startTime": "2025-09-28T13:25:52.733Z",
-                "endTime": "2025-09-28T13:25:52.792Z",
-                "output": "Kavin\n"
-            }
-        ]
+      "startTime": "2023-04-21 15:51:42.276Z",
+      "endTime": "2023-04-21 15:51:43.276Z",
+      "output": "Hello World!"
     },
     {
-        "id": "68d95031ffc73ab8609300bf",
-        "name": "Kavin",
-        "owner": "ajay",
-        "command": "cmd /c echo Kavin",
-        "taskExecutions": [
-            {
-                "startTime": "2025-09-28T15:11:45.687Z",
-                "endTime": "2025-09-28T15:11:45.734Z",
-                "output": "Kavin\n"
-            }
-        ]
+      "startTime": "2023-04-21 15:52:42.276Z",
+      "endTime": "2023-04-21 15:52:43.276Z",
+      "output": "Hello World again!"
     }
-]
+  ]
+}
+
 
 
 
@@ -109,7 +94,7 @@ Developed a Java REST API for managing and running "task" objects, representing 
 **All screenshots include the current date/time and my name. Replace these paths with your actual screenshot files.**
 
 ### Terminal - App Running
-<img width="1919" height="1189" alt="image" src="https://github.com/user-attachments/assets/1007ed02-be60-4693-a203-032be440b00b" />
+<img width="1917" height="1019" alt="image" src="https://github.com/user-attachments/assets/094864d2-10ea-4605-9a93-926eb7ba5b4e" />
 
 
 ### Task Creation (Postman)
@@ -122,7 +107,7 @@ Developed a Java REST API for managing and running "task" objects, representing 
 <img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/15b5548e-1fcf-4723-8376-7bf9176201f0" />
 
 ### MongoDB Data View
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b17a77a6-f75c-4cb6-b90e-7d9fea68181e" />
+<img width="1768" height="1007" alt="image" src="https://github.com/user-attachments/assets/b6514230-979a-4dd8-a887-de0d7c4a724d" />
 
 
 ---

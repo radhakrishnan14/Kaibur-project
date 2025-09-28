@@ -35,43 +35,26 @@ Developed a Java REST API for managing and running "task" objects, representing 
 - `output` (String): Command output  
 
 *Example JSON:*
-[
+
+{
+  "id": "123",
+  "name": "Print Hello",
+  "owner": "John Smith",
+  "command": "echo Hello World again!",
+  "taskExecutions": [
     {
-        "id": "68d92c87b7b6ec9b8c2e4f11",
-        "name": "Thaya",
-        "owner": "ajay",
-        "command": "cmd /c echo Kavin",
-        "taskExecutions": [
-            {
-                "startTime": "2025-09-28T13:25:38.026Z",
-                "endTime": "2025-09-28T13:25:38.026Z",
-                "output": "Task created"
-            },
-            {
-                "startTime": "2025-09-28T13:25:52.733Z",
-                "endTime": "2025-09-28T13:25:52.792Z",
-                "output": "Kavin\n"
-            }
-        ]
+      "startTime": "2023-04-21 15:51:42.276Z",
+      "endTime": "2023-04-21 15:51:43.276Z",
+      "output": "Hello World!"
     },
     {
-        "id": "68d95031ffc73ab8609300bf",
-        "name": "Kavin",
-        "owner": "ajay",
-        "command": "cmd /c echo Kavin",
-        "taskExecutions": [
-            {
-                "startTime": "2025-09-28T15:11:45.687Z",
-                "endTime": "2025-09-28T15:11:45.734Z",
-                "output": "Kavin\n"
-            }
-        ]
+      "startTime": "2023-04-21 15:52:42.276Z",
+      "endTime": "2023-04-21 15:52:43.276Z",
+      "output": "Hello World again!"
     }
-]
+  ]
+}
 
-
-
----
 
 ## API Endpoints
 

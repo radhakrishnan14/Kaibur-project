@@ -110,6 +110,6 @@ Developed a Java REST API for managing and running "task" objects, representing 
 <img width="1768" height="1007" alt="image" src="https://github.com/user-attachments/assets/b6514230-979a-4dd8-a887-de0d7c4a724d" />
 
 
----
+
 
 

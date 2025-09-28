@@ -92,7 +92,8 @@ Developed a Java REST API for managing and running "task" objects, representing 
 **All screenshots include the current date/time and my name. Replace these paths with your actual screenshot files.**
 
 ### Terminal - App Running
-<img width="1919" height="1189" alt="image" src="https://github.com/user-attachments/assets/1007ed02-be60-4693-a203-032be440b00b" />
+<img width="1917" height="1019" alt="image" src="https://github.com/user-attachments/assets/094864d2-10ea-4605-9a93-926eb7ba5b4e" />
+
 
 
 ### Task Creation (Postman)
